@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(40, 38, 38);
+}
+
+h1{
+    color: antiquewhite;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin: 20px auto;
+    max-width: 350px;
+}
+
+#result{
+     color:antiquewhite;
+     
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 10%;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ddd;
+}
